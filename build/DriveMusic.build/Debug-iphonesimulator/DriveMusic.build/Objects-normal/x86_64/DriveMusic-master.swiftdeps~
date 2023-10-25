@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "65d47379bb0c6d370c88d13dda7faf3741c699beec8cf8c0921e9096def6bfed"
+build_start_time: [1698062631, 620147943]
+build_end_time: [1698062631, 721760988]
+inputs:
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": !private [1698062441, 429277896]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/MainTabController.swift": !private [1698062630, 42508125]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SceneDelegate.swift": !private [1698062441, 440155744]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift": !private [1698062441, 443430185]
