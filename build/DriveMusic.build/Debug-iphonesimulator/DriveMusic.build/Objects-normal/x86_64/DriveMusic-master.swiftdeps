@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "65d47379bb0c6d370c88d13dda7faf3741c699beec8cf8c0921e9096def6bfed"
-build_start_time: [1698413325, 76581954]
-build_end_time: [1698413326, 446537017]
+options: "16b839b096d97ca3efc43f7a8caba781993eafc3da4f4bc09c8310903bfa2444"
+build_start_time: [1698442288, 740401983]
+build_end_time: [1698442292, 254908084]
 inputs:
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": [1698062441, 429277896]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Extensions.swift": [1698166375, 40902376]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": [1698440508, 989246368]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Extensions.swift": [1698440457, 257331371]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/MainTabController.swift": [1698413324, 879920005]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SceneDelegate.swift": [1698086295, 208212852]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchViewController.swift": [1698413271, 347877264]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchViewController.swift": [1698442288, 186714649]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift": [1698164053, 906731605]

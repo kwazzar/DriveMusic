@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 struct TrackModel {
     var trackName: String
@@ -16,17 +17,14 @@ struct TrackModel {
 class SearchViewController: UITableViewController {
     
     let seachController = UISearchController(searchResultsController: nil)
-    
     let tracks = [TrackModel(trackName: "Wasted", artistName: "Metz"),
                  TrackModel(trackName: "Wet Blanket", artistName: "Metz")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//    MARK: 8:18 vid
+
         view.backgroundColor = .white
-        
         setupSearchBar()
-        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
     
     }
@@ -35,7 +33,6 @@ class SearchViewController: UITableViewController {
         navigationItem.searchController = seachController
         navigationItem.hidesSearchBarWhenScrolling = false
         seachController.searchBar.delegate = self
-        
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,12 +46,23 @@ class SearchViewController: UITableViewController {
         cell.imageView?.image = UIImage(imageLiteralResourceName: "Image")
         return cell
     }
-    
 }
 
 extension SearchViewController: UISearchBarDelegate {
-    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         print(searchText)
+
+        let urlAF = "https://itunes.apple.com/search?term=\(searchText)"
+
+        AF.request(urlAF).responseData { (dataResponse) in
+            if let error = dataResponse.error {
+                print("Error received requestiong data: \(error.localizedDescription)")
+                return
+            }
+
+            guard let data = dataResponse.data else { return }
+            let someString = String(data: data, encoding: .utf8)
+            print(someString ?? "")
+        }
     }
 }

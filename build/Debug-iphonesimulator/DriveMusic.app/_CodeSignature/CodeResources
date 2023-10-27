@@ -20,6 +20,18 @@
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
 		</data>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		MrnWn9rGrX7SLffmGFYFM6nerD4=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		4up0W56jIyHdvk4gpgAVaqzhDKk=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		grHzPWssPF6PH8sx84PqR6evgo8=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		Dl/8iGFzV1/fGfeUnDoUPv2aeJM=
@@ -57,6 +69,27 @@
 			<key>hash2</key>
 			<data>
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o98ppMeiiZEFXfuU3fGMSlEr3EITZ4p+/T3pfUN0n/0=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1mycBha7SA4TPWYyX+hbGAFSXNAqhPuuI2naiGeVvDk=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GVIBm0TXyeW1CQD5WQLHydQVdxs1t/L09cnA3SLhOs8=
 			</data>
 		</dict>
 	</dict>
