@@ -12,7 +12,7 @@ class MainTabController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UITabBar.appearance().backgroundColor = UIColor.gray
+        UITabBar.appearance().backgroundColor = UIColor.white
         UITabBar.appearance().tintColor = UIColor(hexValue: "#FD2D55", alpha: 1)
         
         viewControllers = [ generateVC(rootViewController: SearchViewController(), image: UIImage(imageLiteralResourceName: "ios10-apple-music-search-5nav-icon"), title: "Search"),
