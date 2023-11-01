@@ -229,6 +229,7 @@ using UInt = size_t;
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -293,8 +294,8 @@ SWIFT_CLASS("_TtC10DriveMusic13SceneDelegate")
 @class NSIndexPath;
 @class UITableViewCell;
 
-SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
-@interface SearchViewController : UITableViewController
+SWIFT_CLASS("_TtC10DriveMusic25SearchMusicViewController")
+@interface SearchMusicViewController : UITableViewController
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -305,8 +306,22 @@ SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
 
 @class UISearchBar;
 
-@interface SearchViewController (SWIFT_EXTENSION(DriveMusic)) <UISearchBarDelegate>
+@interface SearchMusicViewController (SWIFT_EXTENSION(DriveMusic)) <UISearchBarDelegate>
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+@end
+
+
+SWIFT_CLASS("_TtC10DriveMusic12SearchRouter")
+@interface SearchRouter : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
+@interface SearchViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
 @end
 
 

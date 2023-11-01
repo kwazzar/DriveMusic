@@ -10,6 +10,13 @@
 		C47F07B35A8C4FCE033AE9A0 /* Pods_DriveMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C233D4F22BB4AB041DF07797 /* Pods_DriveMusic.framework */; };
 		E31B9ECB2AE82DA000583C24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B9ECA2AE82D9F00583C24 /* Extensions.swift */; };
 		E33BBF172AF1D43100B447D5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF162AF1D43100B447D5 /* NetworkService.swift */; };
+		E33BBF2F2AF1EFE300B447D5 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF282AF1EFE300B447D5 /* SearchPresenter.swift */; };
+		E33BBF302AF1EFE300B447D5 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF292AF1EFE300B447D5 /* SearchWorker.swift */; };
+		E33BBF312AF1EFE300B447D5 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF2A2AF1EFE300B447D5 /* SearchRouter.swift */; };
+		E33BBF322AF1EFE300B447D5 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF2B2AF1EFE300B447D5 /* SearchModels.swift */; };
+		E33BBF332AF1EFE300B447D5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF2C2AF1EFE300B447D5 /* SearchViewController.swift */; };
+		E33BBF342AF1EFE300B447D5 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF2D2AF1EFE300B447D5 /* SearchInteractor.swift */; };
+		E33BBF352AF1EFE300B447D5 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33BBF2E2AF1EFE300B447D5 /* SearchViewController.xib */; };
 		E33F6ED42AED39C000375412 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6ED32AED39C000375412 /* SearchResponse.swift */; };
 		E349958A2AE697E900CCFD61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34995892AE697E900CCFD61 /* AppDelegate.swift */; };
 		E349958C2AE697E900CCFD61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349958B2AE697E900CCFD61 /* SceneDelegate.swift */; };
@@ -17,7 +24,7 @@
 		E34995932AE697EB00CCFD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34995922AE697EB00CCFD61 /* Assets.xcassets */; };
 		E34995962AE697EB00CCFD61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34995942AE697EB00CCFD61 /* LaunchScreen.storyboard */; };
 		E349959E2AE698A600CCFD61 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349959D2AE698A600CCFD61 /* MainTabController.swift */; };
-		E34995A02AE6E9FE00CCFD61 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349959F2AE6E9FE00CCFD61 /* SearchViewController.swift */; };
+		E34995A02AE6E9FE00CCFD61 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349959F2AE6E9FE00CCFD61 /* SearchMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		C233D4F22BB4AB041DF07797 /* Pods_DriveMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31B9ECA2AE82D9F00583C24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E33BBF162AF1D43100B447D5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E33BBF282AF1EFE300B447D5 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		E33BBF292AF1EFE300B447D5 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		E33BBF2A2AF1EFE300B447D5 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		E33BBF2B2AF1EFE300B447D5 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		E33BBF2C2AF1EFE300B447D5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E33BBF2D2AF1EFE300B447D5 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		E33BBF2E2AF1EFE300B447D5 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		E33F6ED32AED39C000375412 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		E34995862AE697E900CCFD61 /* DriveMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34995892AE697E900CCFD61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +49,7 @@
 		E34995952AE697EB00CCFD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34995972AE697EB00CCFD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E349959D2AE698A600CCFD61 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
-		E349959F2AE6E9FE00CCFD61 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E349959F2AE6E9FE00CCFD61 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E33BBF182AF1EDE700B447D5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E33BBF2E2AF1EFE300B447D5 /* SearchViewController.xib */,
+				E33BBF2C2AF1EFE300B447D5 /* SearchViewController.swift */,
+				E33BBF2D2AF1EFE300B447D5 /* SearchInteractor.swift */,
+				E33BBF282AF1EFE300B447D5 /* SearchPresenter.swift */,
+				E33BBF2B2AF1EFE300B447D5 /* SearchModels.swift */,
+				E33BBF292AF1EFE300B447D5 /* SearchWorker.swift */,
+				E33BBF2A2AF1EFE300B447D5 /* SearchRouter.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E33BBF272AF1EF1000B447D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E33BBF162AF1D43100B447D5 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E349957D2AE697E900CCFD61 = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +126,11 @@
 			children = (
 				E34995892AE697E900CCFD61 /* AppDelegate.swift */,
 				E349958B2AE697E900CCFD61 /* SceneDelegate.swift */,
+				E33BBF272AF1EF1000B447D5 /* Services */,
 				E349958D2AE697E900CCFD61 /* ViewController.swift */,
 				E349959D2AE698A600CCFD61 /* MainTabController.swift */,
-				E349959F2AE6E9FE00CCFD61 /* SearchViewController.swift */,
-				E33BBF162AF1D43100B447D5 /* NetworkService.swift */,
+				E33BBF182AF1EDE700B447D5 /* Search */,
+				E349959F2AE6E9FE00CCFD61 /* SearchMusicViewController.swift */,
 				E33F6ED32AED39C000375412 /* SearchResponse.swift */,
 				E31B9ECA2AE82D9F00583C24 /* Extensions.swift */,
 				E34995922AE697EB00CCFD61 /* Assets.xcassets */,
@@ -166,6 +203,7 @@
 			files = (
 				E34995962AE697EB00CCFD61 /* LaunchScreen.storyboard in Resources */,
 				E34995932AE697EB00CCFD61 /* Assets.xcassets in Resources */,
+				E33BBF352AF1EFE300B447D5 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,13 +274,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33F6ED42AED39C000375412 /* SearchResponse.swift in Sources */,
-				E34995A02AE6E9FE00CCFD61 /* SearchViewController.swift in Sources */,
+				E33BBF302AF1EFE300B447D5 /* SearchWorker.swift in Sources */,
+				E33BBF312AF1EFE300B447D5 /* SearchRouter.swift in Sources */,
+				E34995A02AE6E9FE00CCFD61 /* SearchMusicViewController.swift in Sources */,
+				E33BBF2F2AF1EFE300B447D5 /* SearchPresenter.swift in Sources */,
 				E33BBF172AF1D43100B447D5 /* NetworkService.swift in Sources */,
+				E33BBF342AF1EFE300B447D5 /* SearchInteractor.swift in Sources */,
 				E31B9ECB2AE82DA000583C24 /* Extensions.swift in Sources */,
 				E349958E2AE697E900CCFD61 /* ViewController.swift in Sources */,
+				E33BBF332AF1EFE300B447D5 /* SearchViewController.swift in Sources */,
 				E349958A2AE697E900CCFD61 /* AppDelegate.swift in Sources */,
 				E349959E2AE698A600CCFD61 /* MainTabController.swift in Sources */,
 				E349958C2AE697E900CCFD61 /* SceneDelegate.swift in Sources */,
+				E33BBF322AF1EFE300B447D5 /* SearchModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
