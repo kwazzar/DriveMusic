@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C47F07B35A8C4FCE033AE9A0 /* Pods_DriveMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C233D4F22BB4AB041DF07797 /* Pods_DriveMusic.framework */; };
 		E31B9ECB2AE82DA000583C24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B9ECA2AE82D9F00583C24 /* Extensions.swift */; };
+		E33BBF172AF1D43100B447D5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BBF162AF1D43100B447D5 /* NetworkService.swift */; };
 		E33F6ED42AED39C000375412 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6ED32AED39C000375412 /* SearchResponse.swift */; };
 		E349958A2AE697E900CCFD61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34995892AE697E900CCFD61 /* AppDelegate.swift */; };
 		E349958C2AE697E900CCFD61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349958B2AE697E900CCFD61 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 		A420D46DD6BEDE13F7CAFEC1 /* Pods-DriveMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveMusic.debug.xcconfig"; path = "Target Support Files/Pods-DriveMusic/Pods-DriveMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		C233D4F22BB4AB041DF07797 /* Pods_DriveMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31B9ECA2AE82D9F00583C24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E33BBF162AF1D43100B447D5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E33F6ED32AED39C000375412 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		E34995862AE697E900CCFD61 /* DriveMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34995892AE697E900CCFD61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				E349958D2AE697E900CCFD61 /* ViewController.swift */,
 				E349959D2AE698A600CCFD61 /* MainTabController.swift */,
 				E349959F2AE6E9FE00CCFD61 /* SearchViewController.swift */,
+				E33BBF162AF1D43100B447D5 /* NetworkService.swift */,
 				E33F6ED32AED39C000375412 /* SearchResponse.swift */,
 				E31B9ECA2AE82D9F00583C24 /* Extensions.swift */,
 				E34995922AE697EB00CCFD61 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			files = (
 				E33F6ED42AED39C000375412 /* SearchResponse.swift in Sources */,
 				E34995A02AE6E9FE00CCFD61 /* SearchViewController.swift in Sources */,
+				E33BBF172AF1D43100B447D5 /* NetworkService.swift in Sources */,
 				E31B9ECB2AE82DA000583C24 /* Extensions.swift in Sources */,
 				E349958E2AE697E900CCFD61 /* ViewController.swift in Sources */,
 				E349958A2AE697E900CCFD61 /* AppDelegate.swift in Sources */,
