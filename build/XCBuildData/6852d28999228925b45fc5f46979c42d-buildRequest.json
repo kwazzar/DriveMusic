@@ -1,8 +1,8 @@
 {
   "_buildCommand2" : {
-    "command" : "prepareForIndexing",
-    "enableIndexBuildArena" : false,
-    "targets" : null
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
   },
   "buildCommand" : "build",
   "configuredTargets" : [
@@ -11,7 +11,7 @@
     }
   ],
   "containerPath" : "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic.xcworkspace",
-  "continueBuildingAfterErrors" : true,
+  "continueBuildingAfterErrors" : false,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {

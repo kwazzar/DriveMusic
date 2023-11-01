@@ -1,0 +1,20 @@
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchRouter.swift":
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchRouter.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchRouter.o"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchRouter.d"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchRouter.swiftdeps"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchWorker.swift":
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchWorker.swiftdeps"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchWorker.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchWorker.o"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchWorker.d"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchResponse.swift":
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchResponse.swiftdeps"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchResponse.o"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchResponse.dia"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchResponse.d"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/UiViewController + Storyboard.swift":
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/UiViewController + Storyboard.d"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/UiViewController + Storyboard.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/UiViewController + Storyboard.o"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/UiViewController + Storyboard.swiftdeps"

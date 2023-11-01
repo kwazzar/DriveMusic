@@ -53,10 +53,11 @@
       }
     }
   },
+  "qos" : "default",
   "schemeCommand" : "launch",
   "schemeCommand2" : "launch",
   "showNonLoggedProgress" : true,
-  "useDryRun" : false,
+  "useDryRun" : true,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true

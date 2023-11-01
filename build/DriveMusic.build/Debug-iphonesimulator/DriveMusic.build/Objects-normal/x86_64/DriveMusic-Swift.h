@@ -319,10 +319,23 @@ SWIFT_CLASS("_TtC10DriveMusic12SearchRouter")
 
 SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
 @interface SearchViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
 - (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+@interface SearchViewController (SWIFT_EXTENSION(DriveMusic)) <UISearchBarDelegate>
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+@end
+
+
+@interface SearchViewController (SWIFT_EXTENSION(DriveMusic)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 
