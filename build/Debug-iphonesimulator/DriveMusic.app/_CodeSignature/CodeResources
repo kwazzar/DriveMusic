@@ -22,15 +22,27 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		MrnWn9rGrX7SLffmGFYFM6nerD4=
+		Zo0sf6MBrh4pNyQRfyN8mXyMO8Y=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
-		4up0W56jIyHdvk4gpgAVaqzhDKk=
+		+nU2iTgUBVBIUrkxOroUIYtP5jY=
 		</data>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
-		grHzPWssPF6PH8sx84PqR6evgo8=
+		8ZXE08vCYmu15L0dHP0cBDVH6CU=
+		</data>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<data>
+		pdaOuSgFNrcaXlUakr1XW7T6R4s=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<data>
+		IM/uCwf7XF986H8YMatixA510eM=
+		</data>
+		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
+		<data>
+		4TFZAYIwMuxfK59OTAjO/7fHrC8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -91,21 +103,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o98ppMeiiZEFXfuU3fGMSlEr3EITZ4p+/T3pfUN0n/0=
+			un16JzHYFqLa2ZETFVUPSjDOv8SHWi7YLrXYxlmdoGs=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mycBha7SA4TPWYyX+hbGAFSXNAqhPuuI2naiGeVvDk=
+			BlAXs4fXbdsi/CQ/PwJGKhLo5iNYESOAtwBuAzSYAo4=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVIBm0TXyeW1CQD5WQLHydQVdxs1t/L09cnA3SLhOs8=
+			SZh9YbW7PwzA7cgFtxUmCfRDzb0/9nIJDCut8286ZLs=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tof28ernxsoZTBWXm+ra13mBwJ/ft8psmJ8jiT635ME=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sgrm+YYvp/84G6zj0aI/81uysjJgeDxRcxFNwncEZiM=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			07SJfJ8jvB02vbgumilO2CkkcnP7ie/H/pNj2Ls8fnc=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/Info.plist</key>

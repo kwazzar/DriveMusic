@@ -8,6 +8,7 @@ target 'DriveMusic' do
   # Pods for DriveMusic
 pod 'Alamofire', '~> 5.8'
 pod 'SwiftLint'
+pod 'SDWebImage'
 
 
 end

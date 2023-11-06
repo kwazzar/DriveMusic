@@ -1,21 +1,21 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "16b839b096d97ca3efc43f7a8caba781993eafc3da4f4bc09c8310903bfa2444"
-build_start_time: [1699230429, 55348873]
-build_end_time: [1699230432, 628439903]
+options: "ce660634ef49d313aabf410f53275c7f49edc2a12bee47487ebda58e2e9e88cf"
+build_start_time: [1699292905, 615271091]
+build_end_time: [1699292909, 868752002]
 inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": [1698440508, 989246368]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/Extensions.swift": [1698440457, 257331371]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/UiViewController + Storyboard.swift": [1698854068, 144491672]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/MainTabController.swift": [1698854261, 374432325]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SceneDelegate.swift": [1698086295, 208212852]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/Cell/TrackCell.swift": [1699230428, 409426212]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/Cell/TrackCell.swift": [1699292246, 223380088]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchInteractor.swift": [1699055849, 306647062]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchModels.swift": [1699230428, 398690700]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchModels.swift": [1699291511, 12703895]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchPresenter.swift": [1699229416, 315183639]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchRouter.swift": [1698805859, 418284416]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift": [1699230428, 429728507]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchWorker.swift": [1698805859, 416601657]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchMusicViewController.swift": [1698805735, 957284688]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/Models/SearchResponse.swift": [1699228251, 456061840]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/NetworkService.swift": [1698800116, 995234012]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/NetworkService.swift": [1699292903, 932963848]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift": [1698164053, 906731605]
