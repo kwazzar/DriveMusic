@@ -52,6 +52,10 @@
 		<data>
 		9zCXaiNnJUghwzOzRuC3GoYAYAo=
 		</data>
+		<key>TrackCell.nib</key>
+		<data>
+		mVSO+OKU+s3oLfXsdXYomZMRHII=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -123,6 +127,13 @@
 			<key>hash2</key>
 			<data>
 			Da9KiUk5bn2mut998WHRhvMeZaFx9PKILwyD86RCz/Y=
+			</data>
+		</dict>
+		<key>TrackCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7PwcnUu7jbdkNHx3yRkIgQc/8S45CakV6PyvlPht0Mo=
 			</data>
 		</dict>
 	</dict>

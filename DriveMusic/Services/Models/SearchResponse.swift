@@ -17,4 +17,5 @@ struct Track: Codable {
     let collectionName: String?
     let artistName: String
     let artworkUrl100: String?
+    let previewUrl: String?
 }

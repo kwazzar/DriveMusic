@@ -228,6 +228,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -334,6 +335,21 @@ SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
 @interface SearchViewController (SWIFT_EXTENSION(DriveMusic)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UILabel;
+@class UIImageView;
+
+SWIFT_CLASS("_TtC10DriveMusic9TrackCell")
+@interface TrackCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified trackNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified artistNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified collectionNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified trackImageView;
++ (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

@@ -1,4 +1,4 @@
-/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchResponse.swift
+/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/Models/SearchResponse.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchWorker.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchRouter.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/UiViewController\ +\ Storyboard.swift
@@ -13,3 +13,4 @@
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/MainTabController.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SceneDelegate.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchModels.swift
+/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/Cell/TrackCell.swift
