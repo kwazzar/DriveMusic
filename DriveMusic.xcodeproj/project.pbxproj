@@ -28,6 +28,7 @@
 		E34995A02AE6E9FE00CCFD61 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349959F2AE6E9FE00CCFD61 /* SearchMusicViewController.swift */; };
 		E34A56D22AF2A3BB00E76840 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A56D12AF2A3BB00E76840 /* SearchViewController.storyboard */; };
 		E34A56D42AF2A9BF00E76840 /* UiViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A56D32AF2A9BF00E76840 /* UiViewController + Storyboard.swift */; };
+		E39066622AFAB28F00B09A81 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39066612AFAB28F00B09A81 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E349959F2AE6E9FE00CCFD61 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		E34A56D12AF2A3BB00E76840 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
 		E34A56D32AF2A9BF00E76840 /* UiViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController + Storyboard.swift"; sourceTree = "<group>"; };
+		E39066612AFAB28F00B09A81 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E33BBF182AF1EDE700B447D5 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				E39066602AFAB25200B09A81 /* FooterView */,
 				E3282EF32AF5C008000CFA40 /* Cell */,
 				E34A56D12AF2A3BB00E76840 /* SearchViewController.storyboard */,
 				E33BBF2C2AF1EFE300B447D5 /* SearchViewController.swift */,
@@ -171,6 +174,14 @@
 				E31B9ECA2AE82D9F00583C24 /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E39066602AFAB25200B09A81 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				E39066612AFAB28F00B09A81 /* FooterView.swift */,
+			);
+			path = FooterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 				E349958C2AE697E900CCFD61 /* SceneDelegate.swift in Sources */,
 				E33BBF322AF1EFE300B447D5 /* SearchModels.swift in Sources */,
 				E3282EF72AF5C0B4000CFA40 /* TrackCell.swift in Sources */,
+				E39066622AFAB28F00B09A81 /* FooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
