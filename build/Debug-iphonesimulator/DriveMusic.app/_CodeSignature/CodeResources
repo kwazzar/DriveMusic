@@ -68,6 +68,10 @@
 		<data>
 		mVSO+OKU+s3oLfXsdXYomZMRHII=
 		</data>
+		<key>TrackDetailView.nib</key>
+		<data>
+		IDeArSh0uyDS1Mp23yCOSX+g5nI=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -167,6 +171,13 @@
 			<key>hash2</key>
 			<data>
 			7PwcnUu7jbdkNHx3yRkIgQc/8S45CakV6PyvlPht0Mo=
+			</data>
+		</dict>
+		<key>TrackDetailView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			85Dc3GDfOjkbxLNHVhG+r0ISqcwmDv9PGFZXX0Zegpo=
 			</data>
 		</dict>
 	</dict>

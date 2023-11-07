@@ -99,8 +99,22 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         cell.trackImageView.backgroundColor = .red
         cell.set(viewModel: cellViewModel)
 
-
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cellViewModel = searchViewModel.cells[indexPath.row]
+        print("cellViewModel.trackName:", cellViewModel.trackName)
+
+        if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+            let windows = windowScene.windows.filter { $0.isKeyWindow }
+            if let window = windows.first {
+                let trackDetailsView = Bundle.main.loadNibNamed("TrackDetailView", owner: self)?.first as! TrackDetailView
+            window.addSubview(trackDetailsView)
+
+            }
+        }
+
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
