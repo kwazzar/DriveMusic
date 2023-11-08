@@ -363,10 +363,26 @@ SWIFT_CLASS("_TtC10DriveMusic9TrackCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISlider;
+@class UIButton;
 
 SWIFT_CLASS("_TtC10DriveMusic15TrackDetailView")
 @interface TrackDetailView : UIView
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified trackImageView;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified currentTimeSlider;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currentTimeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified durationLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified trackTitleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified authorTitleLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playPauseButton;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified volumeSlider;
 - (void)awakeFromNib;
+- (IBAction)handleCurrentTimerSlider:(id _Nonnull)sender;
+- (IBAction)handleVolumeSlider:(id _Nonnull)sender;
+- (IBAction)dragDownButtonTapped:(id _Nonnull)sender;
+- (IBAction)previousTrack:(id _Nonnull)sender;
+- (IBAction)nextTrack:(id _Nonnull)sender;
+- (IBAction)playPauseAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
