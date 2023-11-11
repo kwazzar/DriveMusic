@@ -44,6 +44,7 @@ class TrackDetailView: UIView {
         trackTitleLabel.text = viewModel.trackName
         authorTitleLabel.text = viewModel.artistName
         monitorStartTime()
+        observePlayerCurrentTime()
         playTrack(previewUrl: viewModel.previewUrl)
         let string600 = viewModel.iconUrlString?.replacingOccurrences(of: "100x100", with: "600x600")
         guard let urlImage = URL(string: string600 ?? "") else { return }
@@ -59,7 +60,7 @@ class TrackDetailView: UIView {
         player.play()
     }
 
-
+// MARK: - Time setup
 
     private func monitorStartTime() {
         let time = CMTimeMake(value: 1, timescale: 3)
@@ -72,6 +73,18 @@ class TrackDetailView: UIView {
     deinit {
         print("TrackDetail memory being reclaimed...")
     }
+
+    private func observePlayerCurrentTime() {
+        let interval = CMTimeMake(value: 1, timescale: 2)
+        player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] (time) in
+            self?.currentTimeLabel.text = time.toDisplayString()
+
+            let durationTime = self?.player.currentItem?.duration
+            let currentDurationText = (durationTime ?? CMTimeMake(value: 1, timescale: 1) - time).toDisplayString()
+            self?.durationLabel.text = "-\(currentDurationText)"
+        }
+    }
+
 
     // MARK: - Animation
     private func enlargeTrackImageView() {

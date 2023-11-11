@@ -6,7 +6,8 @@
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchPresenter.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/NetworkService.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchInteractor.swift
-/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/Extensions.swift
+/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/CMTime\ +\ Extension.swift
+/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/UIColor\ +\ Extension.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift
 /Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift
