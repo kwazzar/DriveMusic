@@ -22,27 +22,27 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		Zo0sf6MBrh4pNyQRfyN8mXyMO8Y=
+		ugJ9XV4D5WzmFO6Mehx2Ef72ZLk=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
-		+nU2iTgUBVBIUrkxOroUIYtP5jY=
+		RC9p9D/G8W8FONvKe33cG4WFHXw=
 		</data>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8ZXE08vCYmu15L0dHP0cBDVH6CU=
+		USi/fayRabWj68hr31HVAUm35Aw=
 		</data>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<data>
-		pdaOuSgFNrcaXlUakr1XW7T6R4s=
+		8iCMdwgT6JHmmUV/aK1MoWCOYMY=
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		IM/uCwf7XF986H8YMatixA510eM=
+		BYiG1Z+2yVjE2FcGCU1+j4BPDtA=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4TFZAYIwMuxfK59OTAjO/7fHrC8=
+		h3NLcd9YMUKjojcqr1p78MShsjA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -107,42 +107,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			un16JzHYFqLa2ZETFVUPSjDOv8SHWi7YLrXYxlmdoGs=
+			sb5T8GS/pXc2k8X4O96rBm8vQctKSn61r4gAAws2sdE=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BlAXs4fXbdsi/CQ/PwJGKhLo5iNYESOAtwBuAzSYAo4=
+			iWibTDNd/TGFMQvJB1gdnLzNh3PamKShMzou+nEP9Vk=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZh9YbW7PwzA7cgFtxUmCfRDzb0/9nIJDCut8286ZLs=
+			Ec4hte6+dK0Bvhm+ikjoKz6dIzRHiH6f07dlvVB4nMs=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tof28ernxsoZTBWXm+ra13mBwJ/ft8psmJ8jiT635ME=
+			keXaszUhfxGdxor2kMBoyntDR5NI8nCNfo6dGLRjdFw=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgrm+YYvp/84G6zj0aI/81uysjJgeDxRcxFNwncEZiM=
+			l4uX2W1j+Z/vKy/aVVwMIFcrWQVdONvSibLo25+X1DA=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			07SJfJ8jvB02vbgumilO2CkkcnP7ie/H/pNj2Ls8fnc=
+			Kh4W7xMYDtXUgVEw5G5SSCOUMRefLR39G5E8ztycwd8=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/Info.plist</key>

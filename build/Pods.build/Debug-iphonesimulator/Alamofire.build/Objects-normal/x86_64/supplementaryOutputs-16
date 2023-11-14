@@ -1,0 +1,45 @@
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/StringEncoding+Alamofire.swift":
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/StringEncoding+Alamofire.dia"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/StringEncoding+Alamofire.d"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/StringEncoding+Alamofire.o"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/StringEncoding+Alamofire.swiftdeps"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/URLEncodedFormEncoder.swift":
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLEncodedFormEncoder.o"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLEncodedFormEncoder.dia"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLEncodedFormEncoder.swiftdeps"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLEncodedFormEncoder.d"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/URLRequest+Alamofire.swift":
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLRequest+Alamofire.swiftdeps"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLRequest+Alamofire.o"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLRequest+Alamofire.d"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLRequest+Alamofire.dia"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/Validation.swift":
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Validation.o"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Validation.d"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Validation.swiftdeps"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Validation.dia"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift":
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLConvertible+URLRequestConvertible.d"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLConvertible+URLRequestConvertible.swiftdeps"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLConvertible+URLRequestConvertible.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLConvertible+URLRequestConvertible.o"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/SessionDelegate.swift":
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/SessionDelegate.d"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/SessionDelegate.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/SessionDelegate.o"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/SessionDelegate.swiftdeps"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/Session.swift":
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Session.d"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Session.swiftdeps"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Session.o"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Session.dia"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/ServerTrustEvaluation.swift":
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.o"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.dia"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.d"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.swiftdeps"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift":
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLSessionConfiguration+Alamofire.d"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLSessionConfiguration+Alamofire.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLSessionConfiguration+Alamofire.o"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/URLSessionConfiguration+Alamofire.swiftdeps"

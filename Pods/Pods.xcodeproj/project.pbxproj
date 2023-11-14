@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -324,7 +325,7 @@
 		58CC0740F86575127DFF4EF527D09965 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
 		5A167FE8209908FC91CC8FCF32644935 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
 		5D08EEDB309F0A0C4DCE1D89CE4C8E93 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F55BB5537BC569D0A0C17E08D3CCCCB /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
 		5F6B1A1A48AC62933EE9049C5AFFDE7E /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
 		5FBF379500AD06121FF7B29418814295 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
@@ -382,7 +383,7 @@
 		9B3BD79DE0B561FFDB1DE2735F26D4D2 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
 		9C177C5A6B2EBC787DC44AD2E02A4029 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9C5BF9BD8C3587B8D4E98FF9A918DAEA /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDDC656824537180B6D4B0E00F58ACD /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		9FABCB287DFDB68812CA24DB2F2BBEFE /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
 		A0B0D8A391FBE1CF7DEF3211D2411E4B /* UIView+WebCacheState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheState.m"; path = "SDWebImage/Core/UIView+WebCacheState.m"; sourceTree = "<group>"; };
@@ -392,7 +393,7 @@
 		ADFD796CEEE45EBD7B9F63FEE9391026 /* UIColor+SDHexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SDHexString.m"; path = "SDWebImage/Private/UIColor+SDHexString.m"; sourceTree = "<group>"; };
 		B025600784BE656C21652E3EF514431E /* Pods-DriveMusic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveMusic-frameworks.sh"; sourceTree = "<group>"; };
 		B0778460F39D26290231C8FAE527495C /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11B37CF6E169605597C48C3F856A2E8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		B171DC174BE14FFAA29A64787199DF76 /* SDImageAWebPCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAWebPCoder.h; path = SDWebImage/Core/SDImageAWebPCoder.h; sourceTree = "<group>"; };
 		B38CD4C13DA6E9834DA0D065E9DFBA52 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
@@ -504,7 +505,6 @@
 			children = (
 				54261ADCE6F169C1B41B3CE6916A0649 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -568,16 +568,15 @@
 				409FD853B8ED07A3733C7FBDD1EABD09 /* Validation.swift */,
 				9B3D730FF19556A82222C184491EA017 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		6BD8C2ED8F91223F6AE18A1437E947A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				2D95F8E3C09694D3D022E0DCFD068272 /* Pods-DriveMusic */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -785,7 +784,6 @@
 				92B6DE5F4E66142C6FA88B6ACBA5415C /* Core */,
 				D1FE288802433DAEBD6E58A52F325C5A /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -946,7 +944,7 @@
 			);
 			name = SDWebImage;
 			productName = SDWebImage;
-			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DA16ED75DDF9CA89F5CCD5857E4B7775 /* Pods-DriveMusic */ = {
@@ -985,7 +983,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -995,7 +993,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -1215,7 +1213,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1241,7 +1239,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1287,6 +1285,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1367,7 +1366,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1401,7 +1400,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1428,7 +1427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1511,6 +1510,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1558,7 +1558,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

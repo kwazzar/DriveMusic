@@ -1,20 +1,20 @@
 "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift":
-  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.dia"
-  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.o"
   swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.swiftdeps"
   dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.d"
-"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/MainTabController.swift":
-  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/MainTabController.dia"
-  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/MainTabController.o"
-  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/MainTabController.swiftdeps"
-  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/MainTabController.d"
-"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift":
-  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.d"
-  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.swiftdeps"
-  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.dia"
-  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.o"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.dia"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/SearchViewController.o"
 "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift":
-  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/ViewController.o"
   dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/ViewController.d"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/ViewController.o"
   swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/ViewController.swiftdeps"
   diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/ViewController.dia"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift":
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/TrackDetailView.dia"
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/TrackDetailView.swiftdeps"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/TrackDetailView.d"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/TrackDetailView.o"
+"/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift":
+  swift-dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.swiftdeps"
+  object: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.o"
+  dependencies: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.d"
+  diagnostics: "/Users/kwazar/Swift/PlayerMusic/DriveMusic/build/DriveMusic.build/Debug-iphonesimulator/DriveMusic.build/Objects-normal/x86_64/AppDelegate.dia"
