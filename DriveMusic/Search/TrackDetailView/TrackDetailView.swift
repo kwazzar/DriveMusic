@@ -9,6 +9,11 @@ import UIKit
 import SDWebImage
 import AVKit
 
+protocol TrackMovingDelegate: AnyObject {
+    func moveBackForPreviousTrack() -> SearchViewModel.Cell?
+    func moveForwardForPreviousTrack() -> SearchViewModel.Cell?
+
+}
 
 class TrackDetailView: UIView {
     
@@ -25,8 +30,9 @@ class TrackDetailView: UIView {
         let avplayer = AVPlayer()
         avplayer.automaticallyWaitsToMinimizeStalling = false
         return avplayer
-        
     }()
+
+    weak var delegate: TrackMovingDelegate?
     
     // MARK: - awakeFromNib
     override func awakeFromNib() {
@@ -118,9 +124,7 @@ class TrackDetailView: UIView {
         let durationInSeconds = CMTimeGetSeconds(duration)
         let seekTimeUnSeconds = Float64(percentage) * durationInSeconds
         let seekTime = CMTimeMakeWithSeconds(seekTimeUnSeconds, preferredTimescale: 1)
-
         player.seek(to: seekTime)
-
     }
     
     @IBAction func handleVolumeSlider(_ sender: Any) {
@@ -133,9 +137,15 @@ class TrackDetailView: UIView {
     }
     
     @IBAction func previousTrack(_ sender: Any) {
+        let cellViewModel = delegate?.moveBackForPreviousTrack()
+        guard let cellInfo = cellViewModel else { return }
+        self.set(viewModel: cellInfo)
     }
     
     @IBAction func nextTrack(_ sender: Any) {
+        let cellViewModel = delegate?.moveForwardForPreviousTrack()
+        guard let cellInfo = cellViewModel else { return }
+        self.set(viewModel: cellInfo)
     }
     
     @IBAction func playPauseAction(_ sender: Any) {

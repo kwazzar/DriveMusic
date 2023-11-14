@@ -341,6 +341,7 @@ SWIFT_CLASS("_TtC10DriveMusic20SearchViewController")
 @end
 
 
+
 @interface SearchViewController (SWIFT_EXTENSION(DriveMusic)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;

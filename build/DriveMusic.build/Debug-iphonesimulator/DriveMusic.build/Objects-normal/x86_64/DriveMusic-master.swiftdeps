@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "ce660634ef49d313aabf410f53275c7f49edc2a12bee47487ebda58e2e9e88cf"
-build_start_time: [1699922428, 238552093]
-build_end_time: [1699922431, 690634012]
+build_start_time: [1699981327, 995692014]
+build_end_time: [1699981332, 241070032]
 inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": [1698440508, 989246368]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/CMTime + Extension.swift": [1699664840, 891118526]
@@ -15,9 +15,9 @@ inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchModels.swift": [1699382101, 911380529]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchPresenter.swift": [1699382101, 882225036]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchRouter.swift": [1698805859, 418284416]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift": [1699568352, 250706672]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift": [1699981327, 480843544]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchWorker.swift": [1698805859, 416601657]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift": [1699922427, 758739948]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift": [1699979894, 899651527]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchMusicViewController.swift": [1698805735, 957284688]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/Models/SearchResponse.swift": [1699228251, 456061840]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/NetworkService.swift": [1699292903, 932963848]
