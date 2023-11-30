@@ -283,6 +283,7 @@ SWIFT_CLASS("_TtC10DriveMusic17MainTabController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIWindow;
 @class UIScene;
 
@@ -387,6 +388,7 @@ SWIFT_CLASS("_TtC10DriveMusic15TrackDetailView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

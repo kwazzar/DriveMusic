@@ -33,6 +33,7 @@ class TrackDetailView: UIView {
     }()
 
     weak var delegate: TrackMovingDelegate?
+    weak var tabBarDelegate: MainTabControllerDelegate?
     
     // MARK: - awakeFromNib
     override func awakeFromNib() {
@@ -100,7 +101,6 @@ class TrackDetailView: UIView {
         self.currentTimeSlider.value = Float(percentage)
     }
 
-
     // MARK: - Animation
     private func enlargeTrackImageView() {
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut) {
@@ -118,7 +118,6 @@ class TrackDetailView: UIView {
 
     // MARK: - @IBAction
     @IBAction func handleCurrentTimerSlider(_ sender: Any) {
-        print("232312312")
         let percentage = currentTimeSlider.value
         guard let duration = player.currentItem?.duration else { return }
         let durationInSeconds = CMTimeGetSeconds(duration)
@@ -132,8 +131,9 @@ class TrackDetailView: UIView {
     }
     
     @IBAction func dragDownButtonTapped(_ sender: Any) {
-        
-        self.removeFromSuperview()
+
+        self.tabBarDelegate?.minimazeTrackDetailController()
+//        self.removeFromSuperview()
     }
     
     @IBAction func previousTrack(_ sender: Any) {
@@ -158,10 +158,5 @@ class TrackDetailView: UIView {
             playPauseButton.setImage(UIImage(imageLiteralResourceName: "play"), for: .normal)
             reduceTrackImageView()
         }
-        
-        
     }
 }
-
-
-

@@ -23,8 +23,6 @@ class TrackCell: UITableViewCell {
     @IBOutlet weak var collectionNameLabel: UILabel!
     @IBOutlet weak var trackImageView: UIImageView!
 
-
-
     override class func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -36,7 +34,6 @@ class TrackCell: UITableViewCell {
     }
 
     func set(viewModel: TrackCellViewModel) {
-    
         trackNameLabel.text = viewModel.trackName
         artistNameLabel.text = viewModel.artistName
         collectionNameLabel.text = viewModel.collectionName

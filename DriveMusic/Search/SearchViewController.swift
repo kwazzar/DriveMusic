@@ -96,7 +96,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = table.dequeueReusableCell(withIdentifier: TrackCell.reuseId, for: indexPath) as! TrackCell
 
         let cellViewModel = searchViewModel.cells[indexPath.row]
-        print("cellViewModel.previewUrl", cellViewModel.previewUrl)
+//        print("cellViewModel.previewUrl", cellViewModel.previewUrl)
         cell.trackImageView.backgroundColor = .red
         cell.set(viewModel: cellViewModel)
 
@@ -110,7 +110,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
             let windows = windowScene.windows.filter { $0.isKeyWindow }
             if let window = windows.first {
-                let trackDetailsView = Bundle.main.loadNibNamed("TrackDetailView", owner: self)?.first as! TrackDetailView
+                let trackDetailsView: TrackDetailView = TrackDetailView.loadFromNib()
                 trackDetailsView.set(viewModel: cellViewModel)
                 trackDetailsView.delegate = self
                 window.addSubview(trackDetailsView)

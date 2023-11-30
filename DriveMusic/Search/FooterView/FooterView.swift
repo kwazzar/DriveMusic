@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class FooterView: UIView {
 
     private var myLabel: UILabel = {
