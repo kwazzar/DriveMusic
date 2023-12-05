@@ -174,6 +174,5 @@ extension SearchViewController: TrackMovingDelegate {
         print("Go forward")
         return getTrack(isForwardTrack: true)
         return nil
-
     }
 }

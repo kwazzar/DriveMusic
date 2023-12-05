@@ -365,11 +365,18 @@ SWIFT_CLASS("_TtC10DriveMusic9TrackCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISlider;
 @class UIButton;
+@class UIStackView;
+@class UISlider;
 
 SWIFT_CLASS("_TtC10DriveMusic15TrackDetailView")
 @interface TrackDetailView : UIView
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified miniTrackView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified miniGoForwardButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified miniTrackImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified miniTrackTitleLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified miniPlayPauseButton;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified maxizedStackView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified trackImageView;
 @property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified currentTimeSlider;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currentTimeLabel;

@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,6 +14,69 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-2M-eCW">
+                    <rect key="frame" x="0.0" y="48" width="414" height="64"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="suf-j0-VSe">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                            <color key="backgroundColor" systemColor="separatorColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="3eE-HM-ihP"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ndv-rF-9aa">
+                            <rect key="frame" x="8" y="8" width="398" height="48"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Metz cover" translatesAutoresizingMaskIntoConstraints="NO" id="YiX-IU-8wy">
+                                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="48" id="5zv-CU-Pes"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zng-q0-Dxn">
+                                    <rect key="frame" x="64" y="0.0" width="210" height="48"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTu-zg-F83">
+                                    <rect key="frame" x="290" y="0.0" width="44" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="44" id="WZn-De-Y7r"/>
+                                    </constraints>
+                                    <color key="tintColor" systemColor="labelColor"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="pause"/>
+                                    <connections>
+                                        <action selector="playPauseAction:" destination="sSB-At-aPC" eventType="touchUpInside" id="aXr-Dc-bc3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TyG-W3-qRC">
+                                    <rect key="frame" x="350" y="0.0" width="48" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="48" id="Lhk-Gi-gbp"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="Right"/>
+                                    <connections>
+                                        <action selector="nextTrack:" destination="sSB-At-aPC" eventType="touchUpInside" id="4Vc-RU-oBg"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="suf-j0-VSe" secondAttribute="trailing" id="4yM-Uw-axw"/>
+                        <constraint firstAttribute="height" constant="64" id="EcQ-GC-1If"/>
+                        <constraint firstItem="suf-j0-VSe" firstAttribute="leading" secondItem="n8q-2M-eCW" secondAttribute="leading" id="MAj-8y-Oum"/>
+                        <constraint firstItem="Ndv-rF-9aa" firstAttribute="top" secondItem="n8q-2M-eCW" secondAttribute="top" constant="8" id="Mci-CJ-191"/>
+                        <constraint firstItem="suf-j0-VSe" firstAttribute="top" secondItem="n8q-2M-eCW" secondAttribute="top" id="PIJ-Pq-C6N"/>
+                        <constraint firstAttribute="trailing" secondItem="Ndv-rF-9aa" secondAttribute="trailing" constant="8" id="QMf-Ug-ESm"/>
+                        <constraint firstAttribute="bottom" secondItem="Ndv-rF-9aa" secondAttribute="bottom" constant="8" id="myN-pw-ett"/>
+                        <constraint firstItem="Ndv-rF-9aa" firstAttribute="leading" secondItem="n8q-2M-eCW" secondAttribute="leading" constant="8" id="zkm-46-QeX"/>
+                    </constraints>
+                </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bef-Ea-WfC">
                     <rect key="frame" x="22" y="48" width="370" height="774"/>
                     <subviews>
@@ -138,8 +202,11 @@
             <viewLayoutGuide key="safeArea" id="UPe-Ld-Kr5"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="UPe-Ld-Kr5" firstAttribute="trailing" secondItem="n8q-2M-eCW" secondAttribute="trailing" id="HdC-zT-V10"/>
+                <constraint firstItem="n8q-2M-eCW" firstAttribute="leading" secondItem="UPe-Ld-Kr5" secondAttribute="leading" id="N8q-s8-Z8r"/>
                 <constraint firstAttribute="trailing" secondItem="Bef-Ea-WfC" secondAttribute="trailing" constant="22" id="OWF-ZM-80j"/>
                 <constraint firstItem="Bef-Ea-WfC" firstAttribute="top" secondItem="UPe-Ld-Kr5" secondAttribute="top" id="gUe-Ls-phG"/>
+                <constraint firstItem="n8q-2M-eCW" firstAttribute="top" secondItem="UPe-Ld-Kr5" secondAttribute="top" id="gn1-1J-Y3U"/>
                 <constraint firstItem="UPe-Ld-Kr5" firstAttribute="bottom" secondItem="Bef-Ea-WfC" secondAttribute="bottom" constant="40" id="htF-Bg-bKD"/>
                 <constraint firstItem="Bef-Ea-WfC" firstAttribute="leading" secondItem="sSB-At-aPC" secondAttribute="leading" constant="22" id="oWY-Rp-L9a"/>
             </constraints>
@@ -148,6 +215,12 @@
                 <outlet property="currentTimeLabel" destination="QLc-bW-oeg" id="IZF-MW-30G"/>
                 <outlet property="currentTimeSlider" destination="E3K-8v-hqJ" id="Rfo-Xt-TbH"/>
                 <outlet property="durationLabel" destination="uCv-27-OzD" id="bz0-jp-ku5"/>
+                <outlet property="maxizedStackView" destination="Bef-Ea-WfC" id="2XK-n3-Qqe"/>
+                <outlet property="miniGoForwardButton" destination="TyG-W3-qRC" id="LSU-QS-MQr"/>
+                <outlet property="miniPlayPauseButton" destination="tTu-zg-F83" id="N1y-NP-rfO"/>
+                <outlet property="miniTrackImageView" destination="YiX-IU-8wy" id="D9o-tE-Ked"/>
+                <outlet property="miniTrackTitleLabel" destination="Zng-q0-Dxn" id="QG7-Y9-mwF"/>
+                <outlet property="miniTrackView" destination="n8q-2M-eCW" id="2CA-bb-FcL"/>
                 <outlet property="playPauseButton" destination="ZDZ-s3-Bca" id="dZX-hy-UUl"/>
                 <outlet property="trackImageView" destination="5w0-Rh-vtv" id="QHu-ER-P32"/>
                 <outlet property="trackTitleLabel" destination="Ks9-I6-Gu4" id="ldc-KS-yAs"/>
@@ -161,7 +234,17 @@
         <image name="Icon Min" width="7" height="12"/>
         <image name="IconMax" width="17" height="17"/>
         <image name="Left" width="34" height="20"/>
+        <image name="Metz cover" width="225" height="225"/>
         <image name="Right" width="34" height="20"/>
         <image name="pause" width="57" height="57"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

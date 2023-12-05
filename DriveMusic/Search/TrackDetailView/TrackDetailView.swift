@@ -16,7 +16,14 @@ protocol TrackMovingDelegate: AnyObject {
 }
 
 class TrackDetailView: UIView {
-    
+
+    @IBOutlet weak var miniTrackView: UIView!
+    @IBOutlet weak var miniGoForwardButton: UIButton!
+    @IBOutlet weak var miniTrackImageView: UIImageView!
+    @IBOutlet weak var miniTrackTitleLabel: UILabel!
+    @IBOutlet weak var miniPlayPauseButton: UIButton!
+
+    @IBOutlet weak var maxizedStackView: UIStackView!
     @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var currentTimeSlider: UISlider!
     @IBOutlet weak var currentTimeLabel: UILabel!
@@ -42,20 +49,22 @@ class TrackDetailView: UIView {
         let scale: CGFloat = 0.8
         trackImageView.transform = CGAffineTransform(scaleX: scale, y: scale)
         trackImageView.layer.cornerRadius = 5
+        miniPlayPauseButton.transform = .init(scaleX: scale, y: scale)
 
-        
-//        trackImageView.backgroundColor = .red
     }
-
     // MARK: - Setup
     func set(viewModel: SearchViewModel.Cell) {
+        miniTrackTitleLabel.text = viewModel.trackName
         trackTitleLabel.text = viewModel.trackName
         authorTitleLabel.text = viewModel.artistName
         monitorStartTime()
         observePlayerCurrentTime()
+        playPauseButton.setImage(UIImage(imageLiteralResourceName: "pause"), for: .normal)
+        miniPlayPauseButton.setImage(UIImage(imageLiteralResourceName: "pause"), for: .normal)
         playTrack(previewUrl: viewModel.previewUrl)
         let string600 = viewModel.iconUrlString?.replacingOccurrences(of: "100x100", with: "600x600")
         guard let urlImage = URL(string: string600 ?? "") else { return }
+        miniTrackImageView.sd_setImage(with: urlImage)
         trackImageView.sd_setImage(with: urlImage)
     }
     
@@ -68,7 +77,7 @@ class TrackDetailView: UIView {
         player.play()
     }
 
-// MARK: - Time setup
+    // MARK: - Time setup
 
     private func monitorStartTime() {
         let time = CMTimeMake(value: 1, timescale: 3)
@@ -131,9 +140,7 @@ class TrackDetailView: UIView {
     }
     
     @IBAction func dragDownButtonTapped(_ sender: Any) {
-
         self.tabBarDelegate?.minimazeTrackDetailController()
-//        self.removeFromSuperview()
     }
     
     @IBAction func previousTrack(_ sender: Any) {
@@ -152,10 +159,12 @@ class TrackDetailView: UIView {
         if player.timeControlStatus == .paused {
             player.play()
             playPauseButton.setImage(UIImage(imageLiteralResourceName: "pause"), for: .normal)
+            miniPlayPauseButton.setImage(UIImage(imageLiteralResourceName: "pause"), for: .normal)
             enlargeTrackImageView()
         } else {
             player.pause()
             playPauseButton.setImage(UIImage(imageLiteralResourceName: "play"), for: .normal)
+            miniPlayPauseButton.setImage(UIImage(imageLiteralResourceName: "play"), for: .normal)
             reduceTrackImageView()
         }
     }
