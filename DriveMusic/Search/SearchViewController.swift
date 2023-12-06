@@ -26,7 +26,6 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     private lazy var footerView = FooterView()
     weak var tabBarDelegate: MainTabControllerDelegate?
 
-
   // MARK: Setup
   private func setup() {
     let viewController        = self
@@ -40,10 +39,6 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     router.viewController     = viewController
   }
   
-  // MARK: Routing
-  
-
-  
   // MARK: View lifecycle
   
   override func viewDidLoad() {
@@ -52,7 +47,7 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
 
       setupTableView()
       setupSearchBar()
-      searchBar(searchController.searchBar, textDidChange: "Metz")
+      searchBar(searchController.searchBar, textDidChange: "Boards of canada")
   }
 
     private func setupSearchBar() {

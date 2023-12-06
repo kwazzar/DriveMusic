@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "ce660634ef49d313aabf410f53275c7f49edc2a12bee47487ebda58e2e9e88cf"
-build_start_time: [1701818072, 937316894]
-build_end_time: [1701818075, 128973960]
+build_start_time: [1701893513, 987040996]
+build_end_time: [1701893516, 333544969]
 inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/AppDelegate.swift": [1698440508, 989246368]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Helpers/CMTime + Extension.swift": [1699664840, 891118526]
@@ -16,10 +16,10 @@ inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchModels.swift": [1699382101, 911380529]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchPresenter.swift": [1699382101, 882225036]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchRouter.swift": [1698805859, 418284416]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift": [1701811302, 638482570]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchViewController.swift": [1701889140, 329879283]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/SearchWorker.swift": [1698805859, 416601657]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift": [1701818072, 553846836]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Search/TrackDetailView/TrackDetailView.swift": [1701893513, 643549919]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/SearchMusicViewController.swift": [1698805735, 957284688]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/Models/SearchResponse.swift": [1699228251, 456061840]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Services/NetworkService.swift": [1701296876, 854799985]
-  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift": [1698164053, 906731605]
+  "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/ViewController.swift": [1701893371, 208864212]
