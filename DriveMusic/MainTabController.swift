@@ -22,7 +22,6 @@ class MainTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         UITabBar.appearance().backgroundColor = UIColor.white
         UITabBar.appearance().tintColor = UIColor(hexValue: "#FD2D55", alpha: 1)
         setupTrackDetailView()
@@ -44,7 +43,7 @@ class MainTabController: UITabBarController {
     }
 
     private func setupTrackDetailView() {
-        print("Трек детайл налаштування3")
+        print("Трек детайл налаштування")
 
         trackDetailView.tabBarDelegate = self
         trackDetailView.delegate = searchVC
@@ -59,18 +58,16 @@ class MainTabController: UITabBarController {
         bottomAnchorConstraint.isActive = true
 
         maximizedTopAnchorConstraint.isActive = true
-//        trackDetailView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         trackDetailView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         trackDetailView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        //        view.addSubview(trackDetailView)
     }
 }
 
 extension MainTabController: MainTabControllerDelegate {
 
     func maximizeTrackDetailController(viewModel: SearchViewModel.Cell?) {
-        maximizedTopAnchorConstraint.isActive = true
         minimizedTopAnchorConstraint.isActive = false
+        maximizedTopAnchorConstraint.isActive = true
         maximizedTopAnchorConstraint.constant = 0
         bottomAnchorConstraint.constant = 0
 
