@@ -1,0 +1,287 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "9aa4c9aa3aaab503166ce9f7edb4fec98fdadbbb83cfb8254acc80f7949ea41c",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Intermediates.noindex",
+              "SYMROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+              "TARGET_DEVICE_MODEL" : "iPhone13,2",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd425653c59d7f4b85e3f2e6621f7c0b8582",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Intermediates.noindex",
+              "SYMROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+              "TARGET_DEVICE_MODEL" : "iPhone13,2",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4295cfa156710812e7f60ca88d18c6352d",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Intermediates.noindex",
+              "SYMROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+              "TARGET_DEVICE_MODEL" : "iPhone13,2",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c46180aea4e87057640961e6db37df0d",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Intermediates.noindex",
+              "SYMROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+              "TARGET_DEVICE_MODEL" : "iPhone13,2",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ba3679b4c4428e6a6d83c5308d3af99b",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Intermediates.noindex",
+              "SYMROOT" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Previews/DriveMusic/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+              "TARGET_DEVICE_MODEL" : "iPhone13,2",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/kwazar/Library/Developer/Xcode/DerivedData/DriveMusic-bvsishoxtsejhjenutobmwyrngoc/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone13,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "64D9DB24-CC52-4D36-A1EE-97DC3523F776",
+          "TARGET_DEVICE_MODEL" : "iPhone13,2",
+          "TARGET_DEVICE_OS_VERSION" : "16.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

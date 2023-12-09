@@ -78,7 +78,6 @@ class TrackDetailView: UIView {
 
     private func playTrack(previewUrl: String?) {
         print("Try play track with url: \(previewUrl ?? "nil" )")
-        
         guard let urlTrack = URL(string: previewUrl ?? "") else { return }
         let playerItem = AVPlayerItem(url: urlTrack)
         player.replaceCurrentItem(with: playerItem)

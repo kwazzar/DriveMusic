@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "d16a66f1495edfb8b3d182fbef9d1289dfd8116447aa3158627120058f0c1361"
-build_start_time: [1699920840, 745296955]
-build_end_time: [1699920866, 209414958]
+build_start_time: [1702085890, 435014009]
+build_end_time: [1702085890, 745363950]
 inputs:
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/AFError.swift": [1699920689, 180404186]
   "/Users/kwazar/Swift/PlayerMusic/DriveMusic/Pods/Alamofire/Source/Alamofire.swift": [1699920689, 188802957]

@@ -1,0 +1,28 @@
+{
+  "source": "/Users/kwazar/Swift/PlayerMusic/DriveMusic/DriveMusic/Library.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Library"
+      },
+      {
+        "comment": "",
+        "key": "Second"
+      },
+      {
+        "comment": "",
+        "key": "Third"
+      },
+      {
+        "comment": "",
+        "key": "Track Name"
+      },
+      {
+        "comment": "",
+        "key": "Artist Name"
+      }
+    ]
+  },
+  "version": 1
+}

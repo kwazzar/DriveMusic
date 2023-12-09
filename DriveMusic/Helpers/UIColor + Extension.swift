@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIColor {
+extension UIColor  {
     convenience init? (hexValue: String, alpha: CGFloat) {
         if hexValue.hasPrefix("#") {
             let scanner = Scanner(string: hexValue)
